@@ -8,17 +8,19 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 - Core idea is sepration of business and UI logic
 - In this approach the component is a visual building block. It does not manage state, does not have behaviour. It takes data and renders a resulting visual snapshot.
 
-### Form app
-- Clojure(Script) primer at `src/main/app/demo.cljs`
-- UI Components: Generic, no side-effects
-- Business logic: Pure, testable, no mocks
-- Machinery: Atom (state management), UI re-render, event handling, mapping functions
-
-### Portfolio
+### UI components
+- UI components: Generic, no side-effects
 - Easy to visualise UI states by passing different arguments to components
 - Common web app experience: 
   - To see a particular UI state: log in, go to specific page, clear cache, fix database etc
 - Live reload
+
+### Form app
+- UI components
+- Business logic:
+  - Validation and UI mapping functions
+  - Pure, testable, no mocks
+- Machinery: Atom (state management), UI re-render, event handling, mapping functions
 
 ### Advantages
 - Easier to test logic and UI states
@@ -32,7 +34,6 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 
 ```md
 README.md
-src/main/app/demo.cljs
 src/main/app/ui/button.cljs
 src/main/app/ui/date_input.cljs
 src/main/app/ui/date_range_input.cljs
