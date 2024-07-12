@@ -1,0 +1,18 @@
+{:source-paths ["src/dev"
+                "src/main"
+                "src/test"
+                "portfolio/src"]
+ :dependencies [[no.cjohansen/replicant "0.2024.05.10"]
+                [no.cjohansen/portfolio "2024.03.18"]
+                [cjohansen/dumdom "2024.04.02"]
+                [metosin/reitit-frontend "0.7.0"]]
+ :dev-http {8090 ["public"]
+            8091 ["portfolio/resources/public" "public/css" "classpath:public"]}
+ :builds {:app
+          {:target :browser
+           :modules {:app {:init-fn app.core/main}}}
+          :portfolio
+          {:target :browser
+           :modules {:scenes {:init-fn app.portfolio/main}}
+           :output-dir "portfolio/resources/public/js"
+           :asset-path "/js"}}}

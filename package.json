@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "shadow:watch": "shadow-cljs watch app portfolio",
+    "shadow:release": "shadow-cljs release app portfolio",
+    "tailwind:build": "tailwindcss -i ./src/css/app.css -o ./public/css/app.css",
+    "tailwind:watch": "tailwindcss -i ./src/css/app.css -o ./public/css/app.css --watch",
+    "tailwind:release": "tailwindcss -o ./public/css/app.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "shadow-cljs": "2.28.10",
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "snabbdom": "3.5.1"
+  }
+}
