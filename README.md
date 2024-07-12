@@ -36,6 +36,7 @@ src/main/app/ui/button.cljs
 src/main/app/ui/date_input.cljs
 src/main/app/ui/date_range_input.cljs
 src/main/app/ui/date_form.cljs
+src/main/app/form.cljs
 src/main/app/core.cljs
 test/main/app/form_test.cljs
 ```
