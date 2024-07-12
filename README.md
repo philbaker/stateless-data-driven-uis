@@ -2,7 +2,7 @@
 
 ## Notes
 
-Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.no/stateless-data-driven-uis/) by Christian Johanssen. Code is from [form-app](https://github.com/cjohansen/form-app)
+Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.no/stateless-data-driven-uis/) by Christian Johansen. Code is from [form-app](https://github.com/cjohansen/form-app)
 
 ### Intro
 - Core idea is sepration of business and UI logic
