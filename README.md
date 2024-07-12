@@ -14,10 +14,11 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
   - Easy to visualise UI states by passing different arguments to components
   - Common web app experience: 
     - To see a particular UI state: log in, go to specific page, clear cache, fix database etc
-  - Live reload
+  - Live reload (small feedback loop)
 - Business logic:
   - Validation and UI mapping functions
   - Pure, testable, no mocks
+  - REPL (small feedback loop)
 - Machinery: Atom (state management), UI re-render, event handling
 
 ### Advantages
