@@ -9,6 +9,7 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 - In this approach the component is a visual building block. It does not manage state, does not have behaviour. It takes data and renders a resulting visual snapshot.
 
 ### Form app
+- Clojure(Script) primer at `src/main/app/demo.cljs`
 - UI Components: Generic, no side-effects
 - Business logic: Pure, testable, no mocks
 - Machinery: Atom (state management), UI re-render, event handling, mapping functions
