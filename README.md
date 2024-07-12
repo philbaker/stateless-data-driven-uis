@@ -24,10 +24,12 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 ### Advantages
 - Easier to test logic and UI states
 - Not tied to UI framework
+- More of a DIY approach
 
 ### Disadvantages
 - Less familiar than common React/Vue approach
 - Potential performance issues
+- More of a DIY approach
 
 ### Files
 
