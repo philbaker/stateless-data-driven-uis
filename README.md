@@ -29,6 +29,9 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 - Less familiar than common React/Vue approach
 - Potential performance issues
 
+### Conclusion
+An interersting approach that makes you think about application structure, iteration and testing.
+
 ### Files
 
 ```md
