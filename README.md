@@ -8,19 +8,17 @@ Based on a [talk](https://vimeo.com/861600197) and [article](https://cjohansen.n
 - Core idea is sepration of business and UI logic
 - In this approach the component is a visual building block. It does not manage state, does not have behaviour. It takes data and renders a resulting visual snapshot.
 
-### UI components
-- UI components: Generic, no side-effects
-- Easy to visualise UI states by passing different arguments to components
-- Common web app experience: 
-  - To see a particular UI state: log in, go to specific page, clear cache, fix database etc
-- Live reload
-
 ### Form app
-- UI components
+- UI components:
+  - Generic, no side-effects
+  - Easy to visualise UI states by passing different arguments to components
+  - Common web app experience: 
+    - To see a particular UI state: log in, go to specific page, clear cache, fix database etc
+  - Live reload
 - Business logic:
   - Validation and UI mapping functions
   - Pure, testable, no mocks
-- Machinery: Atom (state management), UI re-render, event handling, mapping functions
+- Machinery: Atom (state management), UI re-render, event handling
 
 ### Advantages
 - Easier to test logic and UI states
